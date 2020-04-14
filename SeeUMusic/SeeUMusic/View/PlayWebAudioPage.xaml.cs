@@ -14,7 +14,7 @@ namespace SeeUMusic.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PlayWebAudioPage : ContentPage
     {
-        ObservableCollection<MediaInfo> mediaInfos = new ObservableCollection<MediaInfo>();
+        readonly ObservableCollection<MediaInfo> mediaInfos = new ObservableCollection<MediaInfo>();
         public PlayWebAudioPage()
         {
             InitializeComponent();

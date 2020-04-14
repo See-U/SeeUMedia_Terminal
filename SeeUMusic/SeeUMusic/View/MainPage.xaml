@@ -13,6 +13,10 @@
                 <TextCell Text="Play Web Video"
                           Detail="Play a video by specifying a URL"
                           Command="{Binding NavigateCommand}"
+                          CommandParameter="{x:Type local:ShellPage}" />
+                <TextCell Text="Play Web Video"
+                          Detail="Play a video by specifying a URL"
+                          Command="{Binding NavigateCommand}"
                           CommandParameter="{x:Type local:PlayWebVideoPage}" />
                 <TextCell Text="Play Web Audio"
                           Detail="Play audio by specifying a URL"
