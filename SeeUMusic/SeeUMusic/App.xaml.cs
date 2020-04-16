@@ -1,5 +1,5 @@
 ﻿using SeeUMusic.Helpers;
-using SeeUMusic.View;
+using SeeUMusic.Views;
 using Xamarin.Forms;
 
 namespace SeeUMusic

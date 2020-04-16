@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <AssemblyName>SeeUMusic</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -11,32 +12,40 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Acr.UserDialogs" Version="7.1.0.442" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Rg.Plugins.Popup" Version="2.0.0.2" />
     <PackageReference Include="Xamarin.Forms" Version="4.5.0.617" />
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\NeteaseCloudMusicApi\NeteaseCloudMusicApi.csproj" />
+    <ProjectReference Include="..\..\SeeUMusic.Bll\SeeUMusic.Bll.csproj" />
+    <ProjectReference Include="..\..\SeeUMusic.Common\SeeUMusic.Common.csproj" />
+    <ProjectReference Include="..\..\SeeUMusic.Models\SeeUMusic.Models.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="View\AspectVideoPage.xaml">
+    <EmbeddedResource Update="Views\AspectVideoPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\CustomPositionBarPage.xaml">
+    <EmbeddedResource Update="Views\CustomPositionBarPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\CustomTransportPage.xaml">
+    <EmbeddedResource Update="Views\CustomTransportPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\CustomVolumePage.xaml">
+    <EmbeddedResource Update="Views\CustomVolumePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\ShellPage.xaml">
+    <EmbeddedResource Update="Views\LoginView\LoginPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\Video\VideoPage.xaml">
+    <EmbeddedResource Update="Views\ShellPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\VideoView\VideoPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
