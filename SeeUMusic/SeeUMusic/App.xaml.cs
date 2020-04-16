@@ -14,8 +14,9 @@ namespace SeeUMusic
 
         protected override async void OnStart()
         {
-            await FileAccess.CopyVideoIfNotExists("XamarinForms101UsingEmbeddedImages.mp4");
-            MainPage = new NavigationPage(new MainPage());
+            //await FileAccess.CopyVideoIfNotExists("XamarinForms101UsingEmbeddedImages.mp4");
+            //MainPage = new NavigationPage(new MainPage());
+            MainPage = new ShellPage();
         }
 
         protected override void OnSleep()

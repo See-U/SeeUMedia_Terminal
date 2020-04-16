@@ -11,7 +11,7 @@ using Android.Content;
 
 namespace SeeUMusic.Droid
 {
-    [Activity(Label = "SeeUMusic", Icon = "@drawable/Music", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "SeeUMusic", Icon = "@drawable/music", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         public static MainActivity Current { get; private set; }

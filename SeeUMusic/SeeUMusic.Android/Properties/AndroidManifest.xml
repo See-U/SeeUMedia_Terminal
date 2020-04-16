@@ -2,5 +2,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="SeeUMusic.SeeUMusic" android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="26" />
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  <application android:icon="@drawable/Music" android:label="SeeUMusic.Android" android:theme="@style/MainTheme"></application>
+  <application android:icon="@drawable/music" android:label="SeeUMusic.Android" android:theme="@style/MainTheme"></application>
 </manifest>
