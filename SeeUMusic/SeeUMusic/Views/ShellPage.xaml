@@ -6,8 +6,8 @@
             xmlns:local="clr-namespace:SeeUMusic.Views.LoginView"
             xmlns:local1="clr-namespace:SeeUMusic.Views.VideoView"
             mc:Ignorable="d"
-            BarBackgroundColor="#242424"
-             x:Class="SeeUMusic.Views.ShellPage">
+            BarBackgroundColor="{StaticResource bgColor}"
+            x:Class="SeeUMusic.Views.ShellPage">
   <!--Pages can be added as references or inline-->
     <ContentPage IconImageSource="home" Title="主页" >
         <Label 

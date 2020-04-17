@@ -87,15 +87,22 @@ namespace SeeUMusic.Bll.BllImplement.LoginMgt
 
             try
             {
-                (isOk,json) = await api.RequestAsync(CloudMusicApiProviders.Logout, CloudMusicApi.EmptyQueries);
-
-                if (!isOk)
+                if (uid != 0)
                 {
-                    msg = "退出登录失败：" + json;
+                    (isOk, json) = await api.RequestAsync(CloudMusicApiProviders.Logout, CloudMusicApi.EmptyQueries);
+
+                    if (!isOk)
+                    {
+                        msg = "退出登录失败：" + json;
+                    }
+                    else
+                    {
+                        msg = "退出登录成功";
+                    }
                 }
                 else
                 {
-                    msg = "退出登录成功";
+                    msg = "请先进行登录操作！";
                 }
             }
             catch (Exception ex)

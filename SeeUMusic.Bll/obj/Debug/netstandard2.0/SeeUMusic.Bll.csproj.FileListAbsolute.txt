@@ -1,0 +1,15 @@
+E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Bll\bin\Debug\netstandard2.0\SeeUMusic.Bll.deps.json
+E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Bll\bin\Debug\netstandard2.0\SeeUMusic.Bll.dll
+E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Bll\bin\Debug\netstandard2.0\SeeUMusic.Bll.pdb
+E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Bll\bin\Debug\netstandard2.0\NeteaseCloudMusicApi.dll
+E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Bll\bin\Debug\netstandard2.0\SeeUMusic.Models.dll
+E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Bll\bin\Debug\netstandard2.0\NeteaseCloudMusicApi.pdb
+E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Bll\bin\Debug\netstandard2.0\NeteaseCloudMusicApi.xml
+E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Bll\bin\Debug\netstandard2.0\SeeUMusic.Models.pdb
+E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Bll\obj\Debug\netstandard2.0\SeeUMusic.Bll.csprojAssemblyReference.cache
+E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Bll\obj\Debug\netstandard2.0\SeeUMusic.Bll.AssemblyInfoInputs.cache
+E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Bll\obj\Debug\netstandard2.0\SeeUMusic.Bll.AssemblyInfo.cs
+E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Bll\obj\Debug\netstandard2.0\XamlC.stamp
+E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Bll\obj\Debug\netstandard2.0\SeeUMusic.Bll.csproj.CopyComplete
+E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Bll\obj\Debug\netstandard2.0\SeeUMusic.Bll.dll
+E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Bll\obj\Debug\netstandard2.0\SeeUMusic.Bll.pdb

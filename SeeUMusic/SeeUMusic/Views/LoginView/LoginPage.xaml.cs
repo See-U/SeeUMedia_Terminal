@@ -1,4 +1,5 @@
-﻿using Rg.Plugins.Popup.Pages;
+﻿using Rg.Plugins.Popup.Extensions;
+using Rg.Plugins.Popup.Pages;
 using SeeUMusic.ViewModels.LoginVM;
 using System;
 using System.Globalization;
@@ -15,6 +16,11 @@ namespace SeeUMusic.Views.LoginView
         {
             InitializeComponent();
 			BindingContext = new LoginViewModel();
+		}
+
+		async void Button_Clicked(object sender, EventArgs e)
+		{
+			await Navigation.PopPopupAsync();
 		}
 	}
 
