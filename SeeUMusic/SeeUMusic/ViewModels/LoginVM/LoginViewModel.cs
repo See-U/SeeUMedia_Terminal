@@ -138,8 +138,8 @@ namespace SeeUMusic.ViewModels.LoginVM
         {
             string msg = string.Empty;
             var loginInfo = objParams[0] as LoginInfo;
-            (loginInfo, msg) = Singleton<LoginMgtSvr>.Instance.Invoke<LoginInfo>(loginInfo);
-            return loginInfo;
+           var rlt = Singleton<LoginMgtSvr>.Instance.Invoke<LoginInfo>(loginInfo);
+            return rlt.Result.Item1;
         }
 
         /// <summary>

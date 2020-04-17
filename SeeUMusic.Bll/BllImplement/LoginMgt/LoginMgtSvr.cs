@@ -3,6 +3,7 @@ using Newtonsoft.Json.Linq;
 using SeeUMusic.Models.Login;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
@@ -25,12 +26,13 @@ namespace SeeUMusic.Bll.BllImplement.LoginMgt
         /// </summary>
         /// <param name="reqParamInfo"></param>
         /// <returns></returns>
-        public Tuple<LoginInfo,string> Invoke<TResult>(LoginInfo LoginInfo)
+        public async Task<Tuple<LoginInfo,string>> Invoke<TResult>(LoginInfo LoginInfo)
         {
             LoginInfo loginInfo = new LoginInfo();
             bool isOk;
             string msg;
             JObject json;
+            int[] trackIds;
 
             try
             {
@@ -64,6 +66,24 @@ namespace SeeUMusic.Bll.BllImplement.LoginMgt
                 loginInfo.UserId = uid;
                 loginInfo.Nickname = nickName;
                 /******************** 获取账号信息 ********************/
+
+                /******************** 获取我喜欢的音乐 ********************/
+
+                (isOk, json) = await api.RequestAsync(CloudMusicApiProviders.UserPlaylist, new Dictionary<string, string> { { "uid", uid.ToString() } });
+                if (!isOk)
+                    throw new ApplicationException($"获取用户歌单失败： {json}");
+                (isOk, json) = await api.RequestAsync(CloudMusicApiProviders.PlaylistDetail, new Dictionary<string, string> { { "id", json["playlist"][0]["id"].ToString() } });
+                if (!isOk)
+                    throw new ApplicationException($"获取歌单详情失败： {json}");
+                trackIds = json["playlist"]["trackIds"].Select(t => (int)t["id"]).ToArray();
+                (isOk, json) = await api.RequestAsync(CloudMusicApiProviders.SongDetail, new Dictionary<string, string> { { "ids", string.Join(",", trackIds) } });
+                if (!isOk)
+                    throw new ApplicationException($"获取歌曲详情失败： {json}");
+                Console.WriteLine($"我喜欢的音乐 （{trackIds.Length} 首）：");
+                foreach (JObject song in json["songs"])
+                    Console.WriteLine($"{string.Join(",", song["ar"].Select(t => t["name"]))} - {song["name"]}");
+                Console.WriteLine();
+                /******************** 获取我喜欢的音乐 ********************/
 
                 return Tuple.Create<LoginInfo, string>(LoginInfo, msg);
             }

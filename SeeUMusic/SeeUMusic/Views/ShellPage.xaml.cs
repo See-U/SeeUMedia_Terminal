@@ -30,6 +30,7 @@ namespace SeeUMusic.Views
 			BindingContext = this;
 			//Main();
 			//http://music.163.com/api/playlist/detail?id=387699500
+			//http://music.163.com/song/media/outer/url?id=281951.mp3
 		}
 
 		private static async Task Main()
@@ -82,7 +83,7 @@ namespace SeeUMusic.Views
 					/******************** 获取我喜欢的音乐 ********************/
 
 					(isOk, json) = await api.RequestAsync(CloudMusicApiProviders.UserPlaylist, new Dictionary<string, string> { { "uid", uid.ToString() } });
-					if (!isOk)
+					if (!isOk) 
 						throw new ApplicationException($"获取用户歌单失败： {json}");
 					(isOk, json) = await api.RequestAsync(CloudMusicApiProviders.PlaylistDetail, new Dictionary<string, string> { { "id", json["playlist"][0]["id"].ToString() } });
 					if (!isOk)
