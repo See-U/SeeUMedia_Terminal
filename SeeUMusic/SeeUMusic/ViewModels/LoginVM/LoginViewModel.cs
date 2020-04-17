@@ -69,6 +69,18 @@ namespace SeeUMusic.ViewModels.LoginVM
             }
         }
 
+        private ICommand _logoutCommand;
+        /// <summary>
+        /// 退出命令
+        /// </summary>
+        public ICommand LogoutCommand
+        {
+            get
+            {
+                return _logoutCommand ?? (_logoutCommand = new Command(ExecuteLogoutCommand));
+            }
+        }
+
         private string _validateMsg;
         /// <summary>
         /// 验证信息
@@ -107,7 +119,14 @@ namespace SeeUMusic.ViewModels.LoginVM
         private void ExecuteLoginCommand()
         {
             TaskAsyncHelper.RunAsync<LoginInfo>(Logining, LoginedCallBack, LoginInfo);
+        }
 
+        /// <summary>
+        /// 执行登录命令
+        /// </summary>
+        private  async void ExecuteLogoutCommand()
+        {
+            ErrorMsg = await Singleton<LoginMgtSvr>.Instance.LogoutInvoke<string>();
         }
 
         /// <summary>

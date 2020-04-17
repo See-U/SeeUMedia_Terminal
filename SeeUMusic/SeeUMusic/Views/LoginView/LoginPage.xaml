@@ -50,6 +50,11 @@
                 </MultiTrigger>
             </Button.Triggers>
         </Button>
+        <Button Text="退出"
+                Command="{Binding LogoutCommand}"
+                FontSize="Large"
+                HeightRequest="50" 
+                VerticalOptions="Start"></Button>
         <Label x:Name="errorLabel" 
                Text="{Binding Path=ErrorMsg}" 
                FontSize="20" 

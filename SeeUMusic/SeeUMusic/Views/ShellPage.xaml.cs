@@ -29,6 +29,7 @@ namespace SeeUMusic.Views
 
 			BindingContext = this;
 			//Main();
+			//http://music.163.com/api/playlist/detail?id=387699500
 		}
 
 		private static async Task Main()
