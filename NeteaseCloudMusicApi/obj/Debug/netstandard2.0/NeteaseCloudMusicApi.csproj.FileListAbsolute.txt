@@ -7,3 +7,4 @@ E:\DFBD\Project\Exercise\Android\SeeUMusic\NeteaseCloudMusicApi\obj\Debug\netsta
 E:\DFBD\Project\Exercise\Android\SeeUMusic\NeteaseCloudMusicApi\obj\Debug\netstandard2.0\NeteaseCloudMusicApi.dll
 E:\DFBD\Project\Exercise\Android\SeeUMusic\NeteaseCloudMusicApi\obj\Debug\netstandard2.0\NeteaseCloudMusicApi.xml
 E:\DFBD\Project\Exercise\Android\SeeUMusic\NeteaseCloudMusicApi\obj\Debug\netstandard2.0\NeteaseCloudMusicApi.pdb
+E:\DFBD\Project\Exercise\Android\SeeUMusic\NeteaseCloudMusicApi\obj\Debug\netstandard2.0\NeteaseCloudMusicApi.csprojAssemblyReference.cache

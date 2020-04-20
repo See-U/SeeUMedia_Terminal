@@ -15,22 +15,38 @@
             HorizontalOptions="Center"
             Text="当前版块正在开发中。。。"/>
     </ContentPage>
-    <TabbedPage IconImageSource="audio" Title="音乐" BarBackgroundColor="Red" MinimumHeightRequest="13">
+    <TabbedPage IconImageSource="audio" Title="音乐" BarBackgroundColor="Red" HeightRequest="13">
         <ContentPage  >
             <StackLayout>
                 <StackLayout Orientation="Horizontal">
                     <Button Text="登录"  
-                    Command="{Binding NavigateCommand}"
-                    CommandParameter="{x:Type local:LoginPage}">
-                    </Button>
+                            Command="{Binding NavigateCommand}"
+                            CommandParameter="{x:Type local:LoginPage}"/>
+                    <SearchBar x:Name="SearchMusic" 
+                               BackgroundColor="LightPink"
+                               SearchCommand="{Binding SearchItemCmd}" 
+                               SearchCommandParameter="{Binding Text,Source={x:Reference SearchMusic}}"/>
                 </StackLayout>
-
-                <Label 
-            VerticalOptions="Center" 
-            HorizontalOptions="Center"
-            Text="当前版块正在开发中。。。"/>
+                <ListView x:Name="SongsLsvt"
+                          HeightRequest="120"
+                          ItemsSource="{Binding SongLst}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding Name}" />
+                                    <Label Text="{Binding artists[0].name}" />
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <StackLayout  Orientation="Horizontal">
+                    <Button ImageSource=""></Button>
+                    <Button></Button>
+                    <Button></Button>
+                </StackLayout>
             </StackLayout>
-
         </ContentPage>
         <ContentPage Title="歌单"></ContentPage>
         <ContentPage Title="歌手"></ContentPage>

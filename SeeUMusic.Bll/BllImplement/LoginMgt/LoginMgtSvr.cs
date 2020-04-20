@@ -43,7 +43,7 @@ namespace SeeUMusic.Bll.BllImplement.LoginMgt
                     bool isPhone;
 
                     queries = new Dictionary<string, string>();
-                    isPhone = Regex.Match(account, "^[0-9]+$").Success;
+                        isPhone = Regex.Match(account, "^[0-9]+$").Success;
                     queries[isPhone ? "phone" : "email"] = account;
                     queries["password"] = LoginInfo.UserPassword;
                     var rlt = api.RequestAsync(isPhone ? CloudMusicApiProviders.LoginCellphone : CloudMusicApiProviders.Login, queries);

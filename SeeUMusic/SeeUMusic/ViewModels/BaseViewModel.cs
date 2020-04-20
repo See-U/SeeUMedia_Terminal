@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SeeUMusic.Models.Common;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
@@ -9,7 +10,7 @@ namespace SeeUMusic.ViewModels
     /// <summary>
     /// ViewModel的基类
     /// </summary>
-    public class BaseViewModel : INotifyPropertyChanged
+    public class BaseViewModel : CommonCmd, INotifyPropertyChanged
     {
 
         public const int RefreshDuration = 1;

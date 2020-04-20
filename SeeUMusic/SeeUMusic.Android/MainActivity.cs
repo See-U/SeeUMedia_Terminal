@@ -29,7 +29,8 @@ namespace SeeUMusic.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            Rg.Plugins.Popup.Popup.Init(this, savedInstanceState);
+            Rg.Plugins.Popup.Popup.Init(this, savedInstanceState); // 注册插件
+
             LoadApplication(new App());
         }
 
@@ -57,5 +58,44 @@ namespace SeeUMusic.Droid
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
+
+        #region 再按一次退出程序
+
+        private DateTime? lastBackKeyDownTime;
+
+        public override bool OnKeyDown(Keycode keyCode, KeyEvent e)
+        {
+            if (keyCode == Keycode.Back && e.Action == KeyEventActions.Down && e.RepeatCount == 0)
+            {
+                var backPressed = DateTime.Now;
+                var navigation = App.Current.MainPage.Navigation;
+                if (navigation.NavigationStack.Count > 1)
+                {
+                    navigation.PopAsync();
+                    OnBackPressed();
+                    return false;
+                }
+                else if (!lastBackKeyDownTime.HasValue || backPressed.Subtract(lastBackKeyDownTime.Value).Seconds > 3)
+                {
+                    lastBackKeyDownTime = backPressed;
+                    var toast = Toast.MakeText(this, "再按一次退出程序", ToastLength.Short);
+                    toast.SetGravity(GravityFlags.Center, 0, 0);
+                    toast.Show();
+                }
+                else
+                {
+                    Finish();
+                }
+                return true;
+            }
+            return base.OnKeyDown(keyCode, e);
+        }
+
+        public override void OnBackPressed()
+        {
+            Rg.Plugins.Popup.Popup.SendBackPressed(base.OnBackPressed);
+        }
+
+        #endregion
     }
 }
