@@ -5,57 +5,36 @@
             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
             xmlns:local="clr-namespace:SeeUMusic.Views.LoginView"
             xmlns:local1="clr-namespace:SeeUMusic.Views.VideoView"
+            xmlns:local2="clr-namespace:SeeUMusic.Views.AudioView"
+            xmlns:local3="clr-namespace:SeeUMusic.Views"
             mc:Ignorable="d"
             BarBackgroundColor="{StaticResource bgColor}"
             x:Class="SeeUMusic.Views.ShellPage">
   <!--Pages can be added as references or inline-->
-    <ContentPage IconImageSource="home" Title="主页" >
-        <Label 
+    <ContentPage IconImageSource="home" Title="Home" >
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button Text="登录"  
+                            Command="{Binding NavigateCommand}"
+                            CommandParameter="{x:Type local:LoginPage}"/>
+            </StackLayout>
+            <Label 
             VerticalOptions="Center" 
             HorizontalOptions="Center"
             Text="当前版块正在开发中。。。"/>
+        </StackLayout>
     </ContentPage>
-    <TabbedPage IconImageSource="audio" Title="音乐" BarBackgroundColor="Red" HeightRequest="13">
-        <ContentPage  >
-            <StackLayout>
-                <StackLayout Orientation="Horizontal">
-                    <Button Text="登录"  
-                            Command="{Binding NavigateCommand}"
-                            CommandParameter="{x:Type local:LoginPage}"/>
-                    <SearchBar x:Name="SearchMusic" 
-                               BackgroundColor="LightPink"
-                               SearchCommand="{Binding SearchItemCmd}" 
-                               SearchCommandParameter="{Binding Text,Source={x:Reference SearchMusic}}"/>
-                </StackLayout>
-                <ListView x:Name="SongsLsvt"
-                          HeightRequest="120"
-                          ItemsSource="{Binding SongLst}">
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <ViewCell>
-                                <StackLayout Orientation="Horizontal">
-                                    <Label Text="{Binding Name}" />
-                                    <Label Text="{Binding artists[0].name}" />
-                                </StackLayout>
-                            </ViewCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
-                <StackLayout  Orientation="Horizontal">
-                    <Button ImageSource=""></Button>
-                    <Button></Button>
-                    <Button></Button>
-                </StackLayout>
-            </StackLayout>
-        </ContentPage>
-        <ContentPage Title="歌单"></ContentPage>
+    <TabbedPage IconImageSource="audio" Title="Audio" BarBackgroundColor="Red" HeightRequest="13">
+        <local2:MusicPlayer Title="SearchMusic"/>
+        <!--<ContentPage Title="歌单"></ContentPage>
         <ContentPage Title="歌手"></ContentPage>
         <ContentPage Title="排行榜"></ContentPage>
-        <local1:VideoPage Title="视频"/>
+        <local1:VideoPage Title="视频"/>-->
     </TabbedPage>
-    
+
     <!--<local1:VideoPage IconImageSource="video" Title="视频"/>-->
-    <ContentPage IconImageSource="novel" Title="小说" >
+    <!--<local3:PlayWebAudioPage Title="12"/>-->
+    <ContentPage IconImageSource="novel" Title="Novel" >
         <Label 
             VerticalOptions="Center" 
             HorizontalOptions="Center"

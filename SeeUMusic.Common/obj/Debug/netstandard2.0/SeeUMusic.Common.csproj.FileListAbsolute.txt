@@ -5,4 +5,3 @@ E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Common\obj\Debug\netstandar
 E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Common\obj\Debug\netstandard2.0\SeeUMusic.Common.AssemblyInfo.cs
 E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Common\obj\Debug\netstandard2.0\SeeUMusic.Common.dll
 E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Common\obj\Debug\netstandard2.0\SeeUMusic.Common.pdb
-E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Common\obj\Debug\netstandard2.0\SeeUMusic.Common.csprojAssemblyReference.cache

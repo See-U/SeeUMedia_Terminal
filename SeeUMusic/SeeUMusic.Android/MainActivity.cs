@@ -30,7 +30,7 @@ namespace SeeUMusic.Droid
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             Rg.Plugins.Popup.Popup.Init(this, savedInstanceState); // 注册插件
-
+            Acr.UserDialogs.UserDialogs.Init(this);//注册Acr控件
             LoadApplication(new App());
         }
 

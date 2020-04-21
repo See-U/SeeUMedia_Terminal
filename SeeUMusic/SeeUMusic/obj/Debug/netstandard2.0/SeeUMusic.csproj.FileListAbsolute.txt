@@ -14,6 +14,7 @@ E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic\SeeUMusic\bin\Debug\netstan
 E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic\SeeUMusic\obj\Debug\netstandard2.0\SeeUMusic.csprojAssemblyReference.cache
 E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic\SeeUMusic\obj\Debug\netstandard2.0\App.xaml.g.cs
 E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic\SeeUMusic\obj\Debug\netstandard2.0\Views\AspectVideoPage.xaml.g.cs
+E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic\SeeUMusic\obj\Debug\netstandard2.0\Views\AudioView\MusicPlayer.xaml.g.cs
 E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic\SeeUMusic\obj\Debug\netstandard2.0\Views\BindToMediaElementPage.xaml.g.cs
 E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic\SeeUMusic\obj\Debug\netstandard2.0\Views\CustomPositionBarPage.xaml.g.cs
 E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic\SeeUMusic\obj\Debug\netstandard2.0\Views\CustomTransportPage.xaml.g.cs
