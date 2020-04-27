@@ -8,6 +8,7 @@ using Android.Widget;
 using Android.OS;
 using System.Threading.Tasks;
 using Android.Content;
+using Acr.UserDialogs.Infrastructure;
 
 namespace SeeUMusic.Droid
 {
@@ -26,7 +27,8 @@ namespace SeeUMusic.Droid
 
             Current = this;
             base.OnCreate(savedInstanceState);
-
+            //注册未处理异常事件
+            AndroidEnvironment.UnhandledExceptionRaiser += AndroidEnvironment_UnhandledExceptionRaiser;
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             Rg.Plugins.Popup.Popup.Init(this, savedInstanceState); // 注册插件
@@ -94,6 +96,44 @@ namespace SeeUMusic.Droid
         public override void OnBackPressed()
         {
             Rg.Plugins.Popup.Popup.SendBackPressed(base.OnBackPressed);
+        }
+
+        #endregion
+
+        #region 异常处理
+        protected override void Dispose(bool disposing)
+        {
+            AndroidEnvironment.UnhandledExceptionRaiser -= AndroidEnvironment_UnhandledExceptionRaiser;
+            base.Dispose(disposing);
+        }
+
+        void AndroidEnvironment_UnhandledExceptionRaiser(object sender, RaiseThrowableEventArgs e)
+        {
+            UnhandledExceptionHandler(e.Exception, e);
+        }
+
+        /// <summary>
+        /// 处理未处理异常
+        /// </summary>
+        /// <param name="e"></param>
+        private void UnhandledExceptionHandler(Exception ex, RaiseThrowableEventArgs e)
+        {
+            //处理程序（记录 异常、设备信息、时间等重要信息）
+            //**************
+            Log.Debug(nameof(UnhandledExceptionHandler), ex.Message);
+            //提示
+            Task.Run(() =>
+            {
+                Looper.Prepare();
+                //可以换成更友好的提示
+                //Toast.MakeText(this, "很抱歉,程序出现异常:" + ex.Message + ",即将退出.", ToastLength.Long).Show();
+                Looper.Loop();
+            });
+
+            //停一会，让前面的操作做完
+            System.Threading.Thread.Sleep(2000);
+
+            e.Handled = true;
         }
 
         #endregion

@@ -16,7 +16,6 @@ namespace SeeUMusic.ViewModels.SongVM
     public class SongViewModel:BaseViewModel
     {
         private static CloudMusicApi api = new CloudMusicApi();
-        public MediaElement mediaElement;
         private static Dictionary<string, string> queries;
         private static bool isOk;
         private static string msg;
@@ -24,13 +23,20 @@ namespace SeeUMusic.ViewModels.SongVM
 
         public SongViewModel(MediaElement media)
         {
-            mediaElement = media;
+            MediaElement = media;
             SearchItemCmd = new Command<string>(SearchItemHandler);//注册 
             PlayCmd = new Command<object>(PlayHandler);
             PauseCmd = new Command<object>(PauseHandler);
             PreviousCmd = new Command(PreviousHandler);
             NextCmd = new Command(NextHandler);
             CurMediaInfo = new MediaInfo();
+            MediaElement.MediaFailed += MediaElement_MediaFailed;
+        }
+
+        private void MediaElement_MediaFailed(object sender, EventArgs e)
+        {
+            MediaElement.Stop();
+            IsPlay = false;
         }
 
         // ICommand implementations
@@ -82,6 +88,26 @@ namespace SeeUMusic.ViewModels.SongVM
                 if (_SongLst != value)
                 {
                     _SongLst = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+
+        private MediaElement _MediaElement;
+        /// <summary>
+        /// SongListMediaElement
+        /// </summary>
+        public MediaElement MediaElement
+        {
+            get
+            {
+                return _MediaElement;
+            }
+            set
+            {
+                if (_MediaElement != value)
+                {
+                    _MediaElement = value;
                     OnPropertyChanged();
                 }
             }
@@ -143,19 +169,27 @@ namespace SeeUMusic.ViewModels.SongVM
         /// <param name="obj"></param>
         public void PlayHandler(object obj)
         {
-            if (obj != null)
+            try
             {
-                var item = obj as Song;
-                mediaElement.Source = GetSourceById(item.id);
-                mediaElement.Play();
-                IsPlay = true;
-                CurMediaInfo.DisplayName = item.name;
-                CurMediaInfo.Artist = item.artists[0].name;
+                if (obj != null)
+                {
+                    var item = obj as Song;
+                    MediaElement.Source = GetSourceById(item.id);
+                    MediaElement.Play();
+                    IsPlay = true;
+                    CurMediaInfo.DisplayName = item.name;
+                    CurMediaInfo.Artist = item.artists[0].name;
+                }
+                else
+                {
+                    UserDialogs.Instance.Toast("未选择需要播放的歌曲！");
+                }
             }
-            else
+            catch (Exception ex )
             {
-                UserDialogs.Instance.Toast("未选择需要播放的歌曲！");
+                UserDialogs.Instance.Toast(ex.ToString());
             }
+            
         }
 
         /// <summary>
@@ -165,12 +199,12 @@ namespace SeeUMusic.ViewModels.SongVM
         public void PauseHandler(object obj)
         {
             var item = obj as Song;
-            var state = mediaElement.CurrentState;
+            var state = MediaElement.CurrentState;
             if (state != MediaElementState.Paused)
             {
-                mediaElement.Pause();
+                MediaElement.Pause();
                 IsPlay = false;
-                state = mediaElement.CurrentState;
+                state = MediaElement.CurrentState;
             }
         }
 
@@ -185,12 +219,12 @@ namespace SeeUMusic.ViewModels.SongVM
                 var curSong = new Song();
                 if (SongLst != null && SongLst.Count > 0)
                 {
-                    var mediaSource = mediaElement.Source.ToString();
+                    var mediaSource = MediaElement.Source.ToString();
                     if (string.IsNullOrEmpty(mediaSource))
                     {
                         curSong = SongLst[0];
-                        mediaElement.Source = GetSourceById(curSong.id);
-                        mediaElement.Play();
+                        MediaElement.Source = GetSourceById(curSong.id);
+                        MediaElement.Play();
                         CurMediaInfo.DisplayName = curSong.name;
                         CurMediaInfo.Artist = curSong.artists[0].name;
                     }
@@ -201,21 +235,21 @@ namespace SeeUMusic.ViewModels.SongVM
                             if (mediaSource.Contains(item.id.ToString()))
                             {
                                 int curItemId = SongLst.IndexOf(item);
-                                mediaElement.Stop();
+                                MediaElement.Stop();
                                 if (curItemId != 0)
                                 {
                                     curSong = SongLst[--curItemId];
-                                    mediaElement.Source = GetSourceById(curSong.id);
+                                    MediaElement.Source = GetSourceById(curSong.id);
                                     CurMediaInfo.DisplayName = curSong.name;
                                     CurMediaInfo.Artist = curSong.artists[0].name;
                                 }
                                 else
                                 {
-                                    mediaElement.Source = mediaSource;
+                                    MediaElement.Source = mediaSource;
                                     UserDialogs.Instance.Toast("已经是第一首歌了！");
                                 }
 
-                                mediaElement.Play();
+                                MediaElement.Play();
                                 break;
                             }
                         }
@@ -239,12 +273,12 @@ namespace SeeUMusic.ViewModels.SongVM
                 var curSong = new Song();
                 if (SongLst != null && SongLst.Count > 0)
                 {
-                    var mediaSource = mediaElement.Source.ToString();
+                    var mediaSource = MediaElement.Source.ToString();
                     if (string.IsNullOrEmpty(mediaSource))
                     {
                         curSong = SongLst[0];
-                        mediaElement.Source = GetSourceById(curSong.id);
-                        mediaElement.Play();
+                        MediaElement.Source = GetSourceById(curSong.id);
+                        MediaElement.Play();
                         CurMediaInfo.DisplayName = curSong.name;
                         CurMediaInfo.Artist = curSong.artists[0].name;
                     }
@@ -254,22 +288,22 @@ namespace SeeUMusic.ViewModels.SongVM
                         {
                             if (mediaSource.Contains(item.id.ToString()))
                             {
-                                mediaElement.Stop();
+                                MediaElement.Stop();
                                 int curItemId = SongLst.IndexOf(item);
                                 if (SongLst.Count > curItemId)
                                 {
                                     curSong = SongLst[++curItemId];
-                                    mediaElement.Source = GetSourceById(curSong.id);
+                                    MediaElement.Source = GetSourceById(curSong.id);
                                     CurMediaInfo.DisplayName = curSong.name;
                                     CurMediaInfo.Artist = curSong.artists[0].name;
                                 }
                                 else
                                 {
-                                    mediaElement.Source = mediaSource;
+                                    MediaElement.Source = mediaSource;
                                     UserDialogs.Instance.Toast("已经是最后一首歌了！");
                                 }
 
-                                mediaElement.Play();
+                                MediaElement.Play();
                                 break;
                             }
                         }

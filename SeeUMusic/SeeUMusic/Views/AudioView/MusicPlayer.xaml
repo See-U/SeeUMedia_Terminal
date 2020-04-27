@@ -98,6 +98,9 @@
                                   WidthRequest="1"
                                   BackgroundColor="Azure"/>
                     </StackLayout>
+                    <Slider Value="{Binding MediaElement.Position}"></Slider>
+                    <Label  Text="{Binding MediaElement.CurrentState.}"></Label>
+                    <Label  Text="{Binding MediaElement.Position}"></Label>
                 </StackLayout>
             </StackLayout>
         </StackLayout>

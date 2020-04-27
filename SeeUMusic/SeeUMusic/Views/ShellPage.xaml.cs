@@ -26,7 +26,8 @@ namespace SeeUMusic.Views
 			//Main();
 			//http://music.163.com/api/playlist/detail?id=387699500
 			//http://music.163.com/song/media/outer/url?id=281951.mp3
+			//https://music.163.com/outchain/player?type=2&id=34899758&auto=1&height=66&bg=e8e8e8
 
 		}
-    }
+	}
 }
