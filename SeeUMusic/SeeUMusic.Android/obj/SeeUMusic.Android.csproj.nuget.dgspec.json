@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic\\SeeUMusic.Android\\SeeUMusic.Android.csproj": {}
+    "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic\\SeeUMusic.Android\\SeeUMusic.Android.csproj": {}
   },
   "projects": {
-    "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\NeteaseCloudMusicApi\\NeteaseCloudMusicApi.csproj": {
+    "D:\\Study\\Xamarin.Forms\\SeeUMedia\\NeteaseCloudMusicApi\\NeteaseCloudMusicApi.csproj": {
       "version": "3.25.3",
       "restore": {
-        "projectUniqueName": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\NeteaseCloudMusicApi\\NeteaseCloudMusicApi.csproj",
+        "projectUniqueName": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\NeteaseCloudMusicApi\\NeteaseCloudMusicApi.csproj",
         "projectName": "NeteaseCloudMusicApi",
-        "projectPath": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\NeteaseCloudMusicApi\\NeteaseCloudMusicApi.csproj",
-        "packagesPath": "C:\\Users\\DFBD\\.nuget\\packages\\",
-        "outputPath": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\NeteaseCloudMusicApi\\obj\\",
+        "projectPath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\NeteaseCloudMusicApi\\NeteaseCloudMusicApi.csproj",
+        "packagesPath": "C:\\Users\\SeeU\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\NeteaseCloudMusicApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\DFBD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SeeU\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -67,24 +67,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic.Bll\\SeeUMusic.Bll.csproj": {
+    "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic.Bll\\SeeUMusic.Bll.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic.Bll\\SeeUMusic.Bll.csproj",
+        "projectUniqueName": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic.Bll\\SeeUMusic.Bll.csproj",
         "projectName": "SeeUMusic.Bll",
-        "projectPath": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic.Bll\\SeeUMusic.Bll.csproj",
-        "packagesPath": "C:\\Users\\DFBD\\.nuget\\packages\\",
-        "outputPath": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic.Bll\\obj\\",
+        "projectPath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic.Bll\\SeeUMusic.Bll.csproj",
+        "packagesPath": "C:\\Users\\SeeU\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic.Bll\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\DFBD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SeeU\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -98,11 +98,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\NeteaseCloudMusicApi\\NeteaseCloudMusicApi.csproj": {
-                "projectPath": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\NeteaseCloudMusicApi\\NeteaseCloudMusicApi.csproj"
+              "D:\\Study\\Xamarin.Forms\\SeeUMedia\\NeteaseCloudMusicApi\\NeteaseCloudMusicApi.csproj": {
+                "projectPath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\NeteaseCloudMusicApi\\NeteaseCloudMusicApi.csproj"
               },
-              "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic.Models\\SeeUMusic.Models.csproj": {
-                "projectPath": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic.Models\\SeeUMusic.Models.csproj"
+              "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic.Models\\SeeUMusic.Models.csproj": {
+                "projectPath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic.Models\\SeeUMusic.Models.csproj"
               }
             }
           }
@@ -133,24 +133,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic.Common\\SeeUMusic.Common.csproj": {
+    "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic.Common\\SeeUMusic.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic.Common\\SeeUMusic.Common.csproj",
+        "projectUniqueName": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic.Common\\SeeUMusic.Common.csproj",
         "projectName": "SeeUMusic.Common",
-        "projectPath": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic.Common\\SeeUMusic.Common.csproj",
-        "packagesPath": "C:\\Users\\DFBD\\.nuget\\packages\\",
-        "outputPath": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic.Common\\obj\\",
+        "projectPath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic.Common\\SeeUMusic.Common.csproj",
+        "packagesPath": "C:\\Users\\SeeU\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\DFBD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SeeU\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -196,24 +196,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic.Models\\SeeUMusic.Models.csproj": {
+    "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic.Models\\SeeUMusic.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic.Models\\SeeUMusic.Models.csproj",
+        "projectUniqueName": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic.Models\\SeeUMusic.Models.csproj",
         "projectName": "SeeUMusic.Models",
-        "projectPath": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic.Models\\SeeUMusic.Models.csproj",
-        "packagesPath": "C:\\Users\\DFBD\\.nuget\\packages\\",
-        "outputPath": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic.Models\\obj\\",
+        "projectPath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic.Models\\SeeUMusic.Models.csproj",
+        "packagesPath": "C:\\Users\\SeeU\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\DFBD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SeeU\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -263,25 +263,25 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic\\SeeUMusic.Android\\SeeUMusic.Android.csproj": {
+    "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic\\SeeUMusic.Android\\SeeUMusic.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic\\SeeUMusic.Android\\SeeUMusic.Android.csproj",
+        "projectUniqueName": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic\\SeeUMusic.Android\\SeeUMusic.Android.csproj",
         "projectName": "SeeUMusic.Android",
-        "projectPath": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic\\SeeUMusic.Android\\SeeUMusic.Android.csproj",
-        "packagesPath": "C:\\Users\\DFBD\\.nuget\\packages\\",
-        "outputPath": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic\\SeeUMusic.Android\\obj\\",
+        "projectPath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic\\SeeUMusic.Android\\SeeUMusic.Android.csproj",
+        "packagesPath": "C:\\Users\\SeeU\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic\\SeeUMusic.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\DFBD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SeeU\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -295,8 +295,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic\\SeeUMusic\\SeeUMusic.csproj": {
-                "projectPath": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic\\SeeUMusic\\SeeUMusic.csproj"
+              "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic\\SeeUMusic\\SeeUMusic.csproj": {
+                "projectPath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic\\SeeUMusic\\SeeUMusic.csproj"
               }
             }
           }
@@ -317,20 +317,20 @@
         }
       }
     },
-    "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic\\SeeUMusic\\SeeUMusic.csproj": {
+    "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic\\SeeUMusic\\SeeUMusic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic\\SeeUMusic\\SeeUMusic.csproj",
+        "projectUniqueName": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic\\SeeUMusic\\SeeUMusic.csproj",
         "projectName": "SeeUMusic",
-        "projectPath": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic\\SeeUMusic\\SeeUMusic.csproj",
-        "packagesPath": "C:\\Users\\DFBD\\.nuget\\packages\\",
-        "outputPath": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic\\SeeUMusic\\obj\\",
+        "projectPath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic\\SeeUMusic\\SeeUMusic.csproj",
+        "packagesPath": "C:\\Users\\SeeU\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic\\SeeUMusic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\DFBD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SeeU\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -344,17 +344,17 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\NeteaseCloudMusicApi\\NeteaseCloudMusicApi.csproj": {
-                "projectPath": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\NeteaseCloudMusicApi\\NeteaseCloudMusicApi.csproj"
+              "D:\\Study\\Xamarin.Forms\\SeeUMedia\\NeteaseCloudMusicApi\\NeteaseCloudMusicApi.csproj": {
+                "projectPath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\NeteaseCloudMusicApi\\NeteaseCloudMusicApi.csproj"
               },
-              "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic.Bll\\SeeUMusic.Bll.csproj": {
-                "projectPath": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic.Bll\\SeeUMusic.Bll.csproj"
+              "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic.Bll\\SeeUMusic.Bll.csproj": {
+                "projectPath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic.Bll\\SeeUMusic.Bll.csproj"
               },
-              "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic.Common\\SeeUMusic.Common.csproj": {
-                "projectPath": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic.Common\\SeeUMusic.Common.csproj"
+              "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic.Common\\SeeUMusic.Common.csproj": {
+                "projectPath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic.Common\\SeeUMusic.Common.csproj"
               },
-              "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic.Models\\SeeUMusic.Models.csproj": {
-                "projectPath": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic.Models\\SeeUMusic.Models.csproj"
+              "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic.Models\\SeeUMusic.Models.csproj": {
+                "projectPath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic.Models\\SeeUMusic.Models.csproj"
               }
             }
           }
@@ -405,7 +405,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

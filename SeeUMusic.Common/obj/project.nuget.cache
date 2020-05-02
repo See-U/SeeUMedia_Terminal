@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "JmXQKTVkQhwDQN+BMu3KjhHptfz7woeFft+X8nB6wS+rZ82mcDc8q/4RpA9ooZ4rsBGic4tWNdXKUp9BW2+L4Q==",
+  "success": true,
+  "projectFilePath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic.Common\\SeeUMusic.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SeeU\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\SeeU\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\SeeU\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

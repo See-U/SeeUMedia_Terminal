@@ -2484,24 +2484,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DFBD\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\SeeU\\.nuget\\packages\\": {},
+    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic\\SeeUMusic.Android\\SeeUMusic.Android.csproj",
+      "projectUniqueName": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic\\SeeUMusic.Android\\SeeUMusic.Android.csproj",
       "projectName": "SeeUMusic.Android",
-      "projectPath": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic\\SeeUMusic.Android\\SeeUMusic.Android.csproj",
-      "packagesPath": "C:\\Users\\DFBD\\.nuget\\packages\\",
-      "outputPath": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic\\SeeUMusic.Android\\obj\\",
+      "projectPath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic\\SeeUMusic.Android\\SeeUMusic.Android.csproj",
+      "packagesPath": "C:\\Users\\SeeU\\.nuget\\packages\\",
+      "outputPath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic\\SeeUMusic.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "D:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\DFBD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SeeU\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2515,8 +2515,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic\\SeeUMusic\\SeeUMusic.csproj": {
-              "projectPath": "E:\\DFBD\\Project\\Exercise\\Android\\SeeUMusic\\SeeUMusic\\SeeUMusic\\SeeUMusic.csproj"
+            "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic\\SeeUMusic\\SeeUMusic.csproj": {
+              "projectPath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic\\SeeUMusic\\SeeUMusic.csproj"
             }
           }
         }

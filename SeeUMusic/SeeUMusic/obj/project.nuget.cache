@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "093F5Eyy0khi1g0v6meKoWzUZ+1+6RT/Ke3Z4c4wFeWJhdQBMNjPxwjx+kpZEnxExBG+bnc0LOoE6EKZKLWk3A==",
+  "success": true,
+  "projectFilePath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\SeeUMusic\\SeeUMusic\\SeeUMusic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SeeU\\.nuget\\packages\\acr.userdialogs\\7.1.0.442\\acr.userdialogs.7.1.0.442.nupkg.sha512",
+    "C:\\Users\\SeeU\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
+    "C:\\Users\\SeeU\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\SeeU\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\SeeU\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\SeeU\\.nuget\\packages\\rg.plugins.popup\\2.0.0.2\\rg.plugins.popup.2.0.0.2.nupkg.sha512",
+    "C:\\Users\\SeeU\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\SeeU\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512",
+    "C:\\Users\\SeeU\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\SeeU\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\SeeU\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Users\\SeeU\\.nuget\\packages\\xamarin.forms\\4.5.0.617\\xamarin.forms.4.5.0.617.nupkg.sha512"
+  ],
+  "logs": []
+}

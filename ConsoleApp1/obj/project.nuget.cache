@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "NPViNkjbnXz8lmoV1pIt6ynOGuWv+m62ZaHZ4zi4NuuLsFfPun7tN6My9aCA4SgoAZOVEdzZjPJuRF/QAzIe7g==",
+  "success": true,
+  "projectFilePath": "D:\\Study\\Xamarin.Forms\\SeeUMedia\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SeeU\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
+    "C:\\Users\\SeeU\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\SeeU\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512",
+    "C:\\Users\\SeeU\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\SeeU\\.nuget\\packages\\xamarin.forms\\4.5.0.617\\xamarin.forms.4.5.0.617.nupkg.sha512"
+  ],
+  "logs": []
+}

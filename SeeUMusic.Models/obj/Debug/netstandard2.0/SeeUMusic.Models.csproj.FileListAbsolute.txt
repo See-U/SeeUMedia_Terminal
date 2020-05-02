@@ -1,9 +1,0 @@
-E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Models\bin\Debug\netstandard2.0\SeeUMusic.Models.deps.json
-E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Models\bin\Debug\netstandard2.0\SeeUMusic.Models.dll
-E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Models\bin\Debug\netstandard2.0\SeeUMusic.Models.pdb
-E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Models\obj\Debug\netstandard2.0\SeeUMusic.Models.csprojAssemblyReference.cache
-E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Models\obj\Debug\netstandard2.0\SeeUMusic.Models.AssemblyInfoInputs.cache
-E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Models\obj\Debug\netstandard2.0\SeeUMusic.Models.AssemblyInfo.cs
-E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Models\obj\Debug\netstandard2.0\XamlC.stamp
-E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Models\obj\Debug\netstandard2.0\SeeUMusic.Models.dll
-E:\DFBD\Project\Exercise\Android\SeeUMusic\SeeUMusic.Models\obj\Debug\netstandard2.0\SeeUMusic.Models.pdb
