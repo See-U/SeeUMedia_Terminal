@@ -1,0 +1,10 @@
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Models\bin\Debug\netstandard2.0\SeeUMusic.Models.deps.json
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Models\bin\Debug\netstandard2.0\SeeUMusic.Models.dll
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Models\bin\Debug\netstandard2.0\SeeUMusic.Models.pdb
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Models\obj\Debug\netstandard2.0\SeeUMusic.Models.csprojAssemblyReference.cache
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Models\obj\Debug\netstandard2.0\SeeUMusic.Models.csproj.CoreCompileInputs.cache
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Models\obj\Debug\netstandard2.0\SeeUMusic.Models.AssemblyInfoInputs.cache
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Models\obj\Debug\netstandard2.0\SeeUMusic.Models.AssemblyInfo.cs
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Models\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Models\obj\Debug\netstandard2.0\SeeUMusic.Models.dll
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Models\obj\Debug\netstandard2.0\SeeUMusic.Models.pdb

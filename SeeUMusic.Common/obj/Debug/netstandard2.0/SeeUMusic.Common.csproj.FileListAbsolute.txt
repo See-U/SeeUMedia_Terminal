@@ -1,0 +1,9 @@
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Common\bin\Debug\netstandard2.0\SeeUMusic.Common.deps.json
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Common\bin\Debug\netstandard2.0\SeeUMusic.Common.dll
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Common\bin\Debug\netstandard2.0\SeeUMusic.Common.pdb
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Common\obj\Debug\netstandard2.0\SeeUMusic.Common.csprojAssemblyReference.cache
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Common\obj\Debug\netstandard2.0\SeeUMusic.Common.csproj.CoreCompileInputs.cache
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Common\obj\Debug\netstandard2.0\SeeUMusic.Common.AssemblyInfoInputs.cache
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Common\obj\Debug\netstandard2.0\SeeUMusic.Common.AssemblyInfo.cs
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Common\obj\Debug\netstandard2.0\SeeUMusic.Common.dll
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Common\obj\Debug\netstandard2.0\SeeUMusic.Common.pdb

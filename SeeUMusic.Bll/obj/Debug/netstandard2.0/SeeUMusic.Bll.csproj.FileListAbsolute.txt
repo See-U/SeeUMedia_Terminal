@@ -1,0 +1,16 @@
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Bll\bin\Debug\netstandard2.0\SeeUMusic.Bll.deps.json
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Bll\bin\Debug\netstandard2.0\SeeUMusic.Bll.dll
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Bll\bin\Debug\netstandard2.0\SeeUMusic.Bll.pdb
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Bll\bin\Debug\netstandard2.0\NeteaseCloudMusicApi.dll
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Bll\bin\Debug\netstandard2.0\SeeUMusic.Models.dll
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Bll\bin\Debug\netstandard2.0\NeteaseCloudMusicApi.pdb
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Bll\bin\Debug\netstandard2.0\NeteaseCloudMusicApi.xml
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Bll\bin\Debug\netstandard2.0\SeeUMusic.Models.pdb
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Bll\obj\Debug\netstandard2.0\SeeUMusic.Bll.csprojAssemblyReference.cache
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Bll\obj\Debug\netstandard2.0\SeeUMusic.Bll.csproj.CoreCompileInputs.cache
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Bll\obj\Debug\netstandard2.0\SeeUMusic.Bll.AssemblyInfoInputs.cache
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Bll\obj\Debug\netstandard2.0\SeeUMusic.Bll.AssemblyInfo.cs
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Bll\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Bll\obj\Debug\netstandard2.0\SeeUMusic.Bll.csproj.CopyComplete
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Bll\obj\Debug\netstandard2.0\SeeUMusic.Bll.dll
+D:\Study\Xamarin.Forms\SeeUMedia\SeeUMusic.Bll\obj\Debug\netstandard2.0\SeeUMusic.Bll.pdb

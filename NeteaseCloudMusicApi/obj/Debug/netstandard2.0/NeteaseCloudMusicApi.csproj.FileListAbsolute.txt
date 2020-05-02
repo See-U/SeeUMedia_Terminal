@@ -1,0 +1,11 @@
+D:\Study\Xamarin.Forms\SeeUMedia\bin\Debug\netstandard2.0\NeteaseCloudMusicApi.deps.json
+D:\Study\Xamarin.Forms\SeeUMedia\bin\Debug\netstandard2.0\NeteaseCloudMusicApi.dll
+D:\Study\Xamarin.Forms\SeeUMedia\bin\Debug\netstandard2.0\NeteaseCloudMusicApi.pdb
+D:\Study\Xamarin.Forms\SeeUMedia\bin\Debug\netstandard2.0\NeteaseCloudMusicApi.xml
+D:\Study\Xamarin.Forms\SeeUMedia\NeteaseCloudMusicApi\obj\Debug\netstandard2.0\NeteaseCloudMusicApi.csprojAssemblyReference.cache
+D:\Study\Xamarin.Forms\SeeUMedia\NeteaseCloudMusicApi\obj\Debug\netstandard2.0\NeteaseCloudMusicApi.csproj.CoreCompileInputs.cache
+D:\Study\Xamarin.Forms\SeeUMedia\NeteaseCloudMusicApi\obj\Debug\netstandard2.0\NeteaseCloudMusicApi.AssemblyInfoInputs.cache
+D:\Study\Xamarin.Forms\SeeUMedia\NeteaseCloudMusicApi\obj\Debug\netstandard2.0\NeteaseCloudMusicApi.AssemblyInfo.cs
+D:\Study\Xamarin.Forms\SeeUMedia\NeteaseCloudMusicApi\obj\Debug\netstandard2.0\NeteaseCloudMusicApi.dll
+D:\Study\Xamarin.Forms\SeeUMedia\NeteaseCloudMusicApi\obj\Debug\netstandard2.0\NeteaseCloudMusicApi.xml
+D:\Study\Xamarin.Forms\SeeUMedia\NeteaseCloudMusicApi\obj\Debug\netstandard2.0\NeteaseCloudMusicApi.pdb
